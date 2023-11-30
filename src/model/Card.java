@@ -10,6 +10,7 @@ package model;
 public class Card implements Comparable<Card> {
 	private final Rank rank;
 	private final Suit suit;
+	
 
 	// Constructor
 	public Card(Rank rank, Suit suit) {
